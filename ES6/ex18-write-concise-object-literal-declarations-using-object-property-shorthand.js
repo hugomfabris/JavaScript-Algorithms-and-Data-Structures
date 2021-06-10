@@ -6,4 +6,5 @@ const createPerson = (name, age, gender) =>
   // Only change code above this line
 
 
-console.log(createPerson("Zodiac Hasbro", 56, "male"))
+const person1 = createPerson("Zodiac Hasbro", 56, "male")
+console.log(person1)

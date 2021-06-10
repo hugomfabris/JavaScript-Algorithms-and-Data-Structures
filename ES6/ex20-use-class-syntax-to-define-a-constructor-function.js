@@ -8,7 +8,9 @@ class Vegetable {
 // Only change code above this line
 
 const carrot = new Vegetable('carrot');
-console.log(carrot.name); // Should display 'carrot'
+console.log(carrot.name);
+console.log(typeof(carrot))
+console.log(typeof(Vegetable)) //Important to see that Vegetable is a function and not a class
 
 /*
 It should be noted that the class syntax is just syntax, and not a full-fledged class-based implementation of an object-oriented paradigm, unlike in languages such as Java, Python, Ruby, etc.

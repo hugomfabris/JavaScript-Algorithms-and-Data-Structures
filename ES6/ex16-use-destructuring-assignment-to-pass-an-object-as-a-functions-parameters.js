@@ -8,9 +8,9 @@ const stats = {
 };
 
 // Only change code below this line
+
 const half = ({max, min}) => {
   return (max+min)/2
-
 }
 // Only change code above this line
 

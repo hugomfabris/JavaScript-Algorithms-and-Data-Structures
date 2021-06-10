@@ -21,8 +21,8 @@ thermos.temperature = 26;
 temp = thermos.temperature; // 26 in Celsius
 
 console.log(new Thermostat(76))
-console.log(thermos)
- 
+console.log(typeof(Thermostat))
+
 /* 
 Note: It is convention to precede the name of a private variable with an underscore (_). However, the practice itself does not make a variable private.
 */
