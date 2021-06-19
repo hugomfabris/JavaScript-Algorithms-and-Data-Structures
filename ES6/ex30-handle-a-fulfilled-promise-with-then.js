@@ -14,3 +14,5 @@ makeServerRequest.then(result => {
 })
 
 console.log(typeof(makeServerRequest))
+
+console.log(typeof(Promise))

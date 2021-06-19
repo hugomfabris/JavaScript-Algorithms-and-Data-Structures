@@ -7,11 +7,8 @@ const stats = {
   average: 35.85
 };
 
-// Only change code below this line
-
 const half = ({max, min}) => {
   return (max+min)/2
 }
-// Only change code above this line
 
 console.log(half(stats))
