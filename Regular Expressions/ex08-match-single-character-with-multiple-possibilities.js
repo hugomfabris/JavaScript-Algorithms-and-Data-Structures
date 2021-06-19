@@ -3,7 +3,9 @@ You learned how to match literal patterns (/literal/) and wildcard character (/.
 */
 
 let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
-let vowelRegex = /[aeiou]/gi; // Change this line
-let result = quoteSample.match(vowelRegex); // Change this line
+let vowelRegex = /[aeiou]/gi; 
+let result = quoteSample.match(vowelRegex); 
 
 console.log(result)
+
+//Note that the console.log() returns us an array containing the patterns that fits our regex.

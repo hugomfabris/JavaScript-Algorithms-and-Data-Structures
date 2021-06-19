@@ -1,5 +1,5 @@
 let difficultSpelling = "Mississippi";
-let myRegex = /s+/g; // this is the solution
+let myRegex = /s+/g; 
 let result = difficultSpelling.match(myRegex);
 
 console.log(result)
