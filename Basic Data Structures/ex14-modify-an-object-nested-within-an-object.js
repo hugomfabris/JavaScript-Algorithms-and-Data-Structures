@@ -7,10 +7,6 @@ let userActivity = {
   }
 };
 
-// Only change code below this line
-
 userActivity.data.online = 45
-
-// Only change code above this line
 
 console.log(userActivity);
