@@ -28,3 +28,5 @@ function isEveryoneHere(userObj) {
 }
 
 console.log(isEveryoneHere(users));
+
+// We could also check using 'hasOwnProperty' method
