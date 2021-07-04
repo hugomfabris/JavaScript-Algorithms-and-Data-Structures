@@ -3,7 +3,6 @@ function countToFive() {
   let len = firstFive.length;
   
   for (let i = 0; i < len; i++) {
-  
     console.log(firstFive[i]);
   }
 }
