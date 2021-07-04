@@ -3,3 +3,11 @@ let myRegex = /<.*?>/;
 let result = text.match(myRegex);
 
 console.log(result)
+
+/*
+Imagine you apply the regex /t[a-z]*i/ to the string "titanic". This regex is basically a pattern that starts with t, ends with i, and has some letters in between.
+
+Regular expressions are by default greedy, so the match would return ["titani"]. It finds the largest sub-string possible to fit the pattern.
+
+However, you can use the ? character to change it to lazy matching. "titanic" matched against the adjusted regex of /t[a-z]*?i/ returns ["ti"].
+*/

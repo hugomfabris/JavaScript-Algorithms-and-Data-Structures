@@ -1,3 +1,3 @@
 let timStr = "Timmmmber";
-let timRegex = /Tim{4}ber/; // Change this line
+let timRegex = /Tim{4}ber/;
 let result = timRegex.test(timStr);
