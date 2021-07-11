@@ -1,8 +1,7 @@
 function nonMutatingSplice(cities) {
-  // Only change code below this line
-  return cities.slice(0, 3);
 
-  // Only change code above this line
+  return cities.slice(0, 3);
+// Using slice here instead of splice is usefull to avoid mutations and its side effects
 }
 var inputCities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
 

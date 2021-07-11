@@ -112,18 +112,15 @@ var watchList = [
   }
 ];
 
-// Only change code below this line
-
 let mapedArr = watchList.map(item => ({
     
     title: item["Title"],
     rating: Number(parseFloat(item["imdbRating"])).toFixed(1)
+    //We use the Number constructor and parseFloat to make the strings inputs into floats, and toFixed(1) method to make ir more organized in the output
   }));
   
 let filteredList = mapedArr.filter(user => user.rating >= 8.0) 
  
-
-// Only change code above this line
 
 console.log(mapedArr)
 console.log(filteredList)

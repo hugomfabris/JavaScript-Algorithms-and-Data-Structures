@@ -113,13 +113,11 @@ var watchList = [
 ];
 
 function getRating(watchList){
-  // Only change code below this line
   
   let nolanMovies = watchList.filter(item => item["Director"] === "Christopher Nolan")
   let ratings = nolanMovies.map(item => Number(item.imdbRating));
   let averageRating = ratings.reduce((sum, rating) => sum + rating)/nolanMovies.length;
 
-  // Only change code above this line
   return averageRating;
 }
 console.log(getRating(watchList));

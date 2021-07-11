@@ -19,10 +19,10 @@ const getTea = (prepareTea, numOfCups) => {
   return teaCups;
 };
 
-// Only change code below this line
+
 const tea4GreenTeamFCC = getTea(prepareGreenTea, 27);
 const tea4BlackTeamFCC = getTea(prepareBlackTea, 13);
-// Only change code above this line
+
 
 console.log(
   tea4GreenTeamFCC,

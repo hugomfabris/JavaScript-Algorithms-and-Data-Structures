@@ -16,7 +16,6 @@ const getTea = (numOfCups) => {
   return teaCups;
 };
 
-// Only change code below this line
+
 const tea4TeamFCC = getTea(40);
 console.log(tea4TeamFCC);
-// Only change code above this line
