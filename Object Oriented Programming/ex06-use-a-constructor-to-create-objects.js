@@ -5,4 +5,5 @@ function Dog() {
 }
 
 let hound = new Dog()
-// Only change code below this line
+
+console.log(hound)

@@ -4,7 +4,5 @@ function Dog(name) {
 
 let beagle = new Dog("Snoopy");
 
-// Only change code below this line
-
-Dog.prototype.isPrototypeOf(beagle);
+console.log(Dog.prototype.isPrototypeOf(beagle));
 

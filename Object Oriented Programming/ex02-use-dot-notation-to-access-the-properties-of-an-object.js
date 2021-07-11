@@ -4,4 +4,3 @@ let dog = {
 };
 console.log(dog.name)
 console.log(dog.numLegs)
-// Only change code below this line

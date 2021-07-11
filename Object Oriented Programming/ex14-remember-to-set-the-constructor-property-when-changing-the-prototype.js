@@ -1,8 +1,10 @@
+/*
+There is one crucial side effect of manually setting the prototype to a new object. It erases the constructor property! This property can be used to check which constructor function created the instance, but since the property has been overwritten, it now gives false results.
+*/
 function Dog(name) {
   this.name = name;
 }
 
-// Only change code below this line
 Dog.prototype = {
 
   constructor: Dog,
@@ -14,3 +16,7 @@ Dog.prototype = {
     console.log("My name is " + this.name);
   }
 };
+
+let beagle = new Dog('Brian')
+
+console.log(beagle.constructor === Dog)
