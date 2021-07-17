@@ -29,4 +29,6 @@ function myReplace(str, before, after) {
   
 }
 
+//when revising this code remember to also revise the solutions that use the methods charAT(), substring()
+
 console.log(myReplace("His name is Tom", "Tom", "john")); 
