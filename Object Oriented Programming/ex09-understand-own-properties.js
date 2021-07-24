@@ -11,4 +11,9 @@ for (let property in canary) {
   }
 }
 
+canary.color = 'green'
+console.log(canary)
 console.log(ownProps)
+
+// Here color is not a own property because we define it later, outside the constructor
+

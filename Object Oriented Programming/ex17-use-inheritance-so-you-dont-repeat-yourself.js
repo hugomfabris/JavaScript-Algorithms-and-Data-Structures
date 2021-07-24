@@ -1,5 +1,4 @@
 //There's a principle in programming called Don't Repeat Yourself (DRY)
-
 function Cat(name) {
   this.name = name;
 }
@@ -23,5 +22,4 @@ Animal.prototype = {
   eat: function() {
     console.log("nom nom nom");
   }
-
 };
